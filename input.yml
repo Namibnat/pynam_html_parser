@@ -1,0 +1,27 @@
+header:
+  line1:
+    text: HTML header text
+    tag: h1
+form:
+  attr:
+    method: post
+    action: /data
+  elem:
+    label:
+      text: Enter your name
+      for: name
+    input:
+      type: text
+      id: name
+      name: name
+content:
+  line2:
+    text: The output of this line should be a paragraph
+    tag: p
+  line3:
+    text: Some more text to put in our HTML
+    tag: p
+footer:
+  linex:
+    text: Copyright 2021
+    tag: p
